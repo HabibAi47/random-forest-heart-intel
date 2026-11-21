@@ -1,8 +1,9 @@
-# Random Forest Experiments (Question 2, Part B)
+# Random Forest Experiments 
 
 Experiments exploring the behaviour of Random Forests (Breiman, 2001) with scikit-learn on two datasets:
 
-- **Tabular:** Heart Disease (Cleveland, UCI) - 297 samples, 13 features, binary label (`condition`)
+
+**Tabular:** Heart Disease (Cleveland, UCI) - 297 samples, 13 features, binary label (`condition`)
 - **Image:** Intel Image Classification - natural scenes in 6 classes (buildings, forest, glacier, mountain, sea, street)
 
 ## Experiments
@@ -13,7 +14,7 @@ For each dataset: standard train/test split, preprocessing, then
 2. **Decision Tree vs Random Forest:** default parameters, comparing test accuracy and training time.
 3. **Comparative analysis with SVM:** Decision Tree vs Random Forest vs SVM (RBF and linear), with classification reports, confusion matrices and 5-fold cross-validation (Heart).
 
-## Framework (end to end)
+Framework (end to end)
 
 1. **Load data** - CSV with pandas (Heart); images with PIL resized to 32x32 (Intel).
 2. **Split** - stratified 80/20 split (Heart); provided `seg_train` / `seg_test` folders (Intel).
