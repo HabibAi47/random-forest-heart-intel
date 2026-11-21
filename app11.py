@@ -1,6 +1,6 @@
 """
 Random Forest Lab - Streamlit app (Intel Images + Heart Disease)
-Run:  python -m streamlit run rf_lab_app.py
+Run:  python -m streamlit run app11.py
 """
 import os, time
 import numpy as np
